@@ -1,0 +1,26 @@
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import Home from './Components/Home/Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Pageone from './Components/Pages/Pageone';
+import Pagetwo from './Components/Pages/Pagetwo';
+import Pagethree from './Components/Pages/Pagethree';
+import { EmblaCarousel } from './Components/Pages/Embleslide';
+
+
+
+
+function App() {
+  return (
+    <div className='App'>
+      <Navbar />
+      <Home />
+     <Pageone />
+     <Pagetwo />
+     <Pagethree />
+     <EmblaCarousel />
+    </div>
+  )
+}
+
+export default App

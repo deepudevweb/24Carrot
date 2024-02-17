@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "futura-pt", sans-serif;
+  outline: none !important;
+  overflow-x: hidden;
+}
+
+.App {
+ height: 100vh;
+}
