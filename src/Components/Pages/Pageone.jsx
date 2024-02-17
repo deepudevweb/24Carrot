@@ -8,8 +8,11 @@ function Pageone() {
         <div className='pageone'>
             <div className="page-one-left">
                 <h4>WELCOME TO 24 CARROT</h4>
-                <h1>Remarkable Catering & Events</h1>
-                <p>24 Carrots is the premier catering and events company of choice in Southern California. We create remarkable experiences by offering the finest quality foods and providing unsurpassed personalized service, driven by our passion for life’s special occasions.
+                <h1>Remarkable Catering & <br /> Events</h1>
+                <p>24 Carrots is the premier catering and events company of choice in Southern California.
+                <br /> We create remarkable experiences by offering the finest quality
+                 <br /> 
+                 foods andproviding unsurpassed personalized service,driven by our passion for life’s special occasions.
                 </p>
                 <button className='button'>GET IN TOUCH <FaArrowRightLong className='arrow' /> </button>
             </div>

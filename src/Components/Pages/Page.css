@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:  0 90px;
+    /* padding:  0 90px; */
 }
 
 .page-one-left h4 {
@@ -25,6 +25,7 @@
 }
 .page-one-left p {
    line-height: 2;
+   color: #647B4E;
 }
 
 .page-one-right{
@@ -146,7 +147,7 @@
 }
 
 .links, .content{
-    /* width: 50%; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,18 +223,171 @@
     padding: 4px 35px;
   }
 
-  .embla img:hover{
-    background: linear-gradient(0deg, rgba(193, 86, 39, 0.7) 0%, rgba(193, 86, 39, 0.7) 100%);
-  }
-
   .embla__slide {
     flex: 0 0 50%;
     min-width: 0;
 }
 
-.overlay{
-    height: 500px;
-    width: 100%;
-    padding: 4px 35px;
-    z-index: 20;
+/* pageefour */
+
+.pagefour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.pagefour h1 {
+    font-size: 5.2rem;
+}
+
+.page-four-top{
+    margin-bottom: 8rem;
+}
+.pagefive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+}
+.pagefive h1 {
+    font-size: 5.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .pageone {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-one-left h1 {
+        font-size: 3rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .sli-img {
+        height: 520px;
+        margin-top: 4rem;
+    }
+
+    .pagetwo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagetwo img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .wedheading {
+        font-size: 2rem;
+    }
+
+    .links ul {
+        display: none;
+    }
+
+    .page-two-right {
+        width: 100%;
+    }
+
+    .bottom-circle {
+        height: 160px;
+        width: 333px;
+    }
+    .circle h1 {
+        font-size: 3.3rem;
+    }
+
+    .circle p {
+        font-size: .8rem;
+    }
+
+    .embla img {
+        height: 250px;
+        padding: 0px 10px;
+    }
+
+    .pagefour iframe{
+        width: 568px;
+        height: 364px
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay h1 {
+    font-size: 2rem;
+}
+    
+    .page-one-left p {
+        line-height: 140%;
+        font-size: 20px;
+    }
+
+    .page-one-left {
+        width: 80%;
+    }
+
+    .content p {
+        line-height: 140%;
+        font-size: 20px;
+    }
+
+    .page-two-left {
+        width: 100%;
+    }
+
+    .sli-img {
+        height: 350px;
+        margin-top: 4rem;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .bottom-circle {
+        height: 118px;
+        width: 185px;
+        margin-top: 1rem;
+    }
+
+    .circle p{
+        line-height: 140%;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    .embla__slide {
+        flex: 0 0 100%;
+        min-width: 0;
+    }
+
+    /* pageefour */
+
+    .pagefour h1 {
+        font-size: 2.2rem;
+    }
+
+    .pagefour iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    .pagefour p {
+        padding:  0 20px;
+    }
+
+    /* pagefour */
+    .pagefive h1 {
+        font-size: 2.2rem;
+    }
+
+    /* pagefive */
+    .pagefive p {
+        padding:  0 20px;
+    }
 }

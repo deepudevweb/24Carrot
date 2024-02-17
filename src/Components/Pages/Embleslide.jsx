@@ -18,9 +18,6 @@ export function EmblaCarousel() {
         <div className="embla__slide"><img src={Emblaslide3} alt="" /></div>
         <div className="embla__slide"><img src={Emblaslide4} alt="" /></div>
         <div className="embla__slide"><img src={Emblaslide5} alt="" /></div>
-       <div className="overlay">
-         
-       </div>
       </div>
     </div>
   )

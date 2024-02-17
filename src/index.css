@@ -13,3 +13,8 @@ body {
 .App {
  height: 100vh;
 }
+
+body p {
+  color: #647B4E;
+  line-height: 140%;
+}

@@ -3,36 +3,24 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div className='navbar'>
-      <div className="navlist-left">
-        <ul className='navlist-left'>
-          <li>
-            <a href="">ABOUT</a>
-          </li>
-          <li>
-            <a href="">SERVICES</a>
-          </li>
-          <li>
-            <a href="">EVENTS</a>
-          </li>
-        </ul>
-      </div>
-      <div className="nav-logo">
-        <a href="">24 CARROTS</a>
-        <p>CARETING & EVENTS</p>
-      </div>
-      <div className="navlist-right">
-        <ul  className='navlist-right'>
-          <li>
-            <a href="">VENUES</a>
-          </li>
-          <li>
-            <a href="">CAREEERS</a>
-          </li>
-        </ul>
-        <button>GET IN TOUCH</button>
-      </div>
-    </div>
+   <div className='navbar'>
+    <div className="nav-content">
+        <div className="nav-left">
+          <a href="">ABOUT</a>
+          <a href="">SERVICES</a>
+          <a href="">EVENTS</a>
+        </div>
+        <div className="nav-mid">
+          <h3>24 CARROTS</h3>
+          <p>CARETING & EVENTS</p>
+        </div>
+        <div className="nav-right">
+          <a href="">VENUES</a>
+          <a href="">CAREERS</a>
+          <button className='nav-button'>Get In Touch</button>
+        </div>
+        </div>
+   </div>
   )
 }
 

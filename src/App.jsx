@@ -6,6 +6,8 @@ import Pageone from './Components/Pages/Pageone';
 import Pagetwo from './Components/Pages/Pagetwo';
 import Pagethree from './Components/Pages/Pagethree';
 import { EmblaCarousel } from './Components/Pages/Embleslide';
+import Pagefour from './Components/Pages/Pagefour';
+import Pagefive from './Components/Pages/Pagefive';
 
 
 
@@ -19,6 +21,8 @@ function App() {
      <Pagetwo />
      <Pagethree />
      <EmblaCarousel />
+     <Pagefour />
+     <Pagefive />
     </div>
   )
 }
