@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { FaArrowRightLong } from "react-icons/fa6";
 function Pagefive() {
   return (
     <div className='pagefive'>
@@ -15,7 +15,7 @@ function Pagefive() {
                     <br />
                     unforgettable experience.</p>
             </div>
-            <button className='button'>EXPLORE SERVICES</button>
+            <button className='button'>EXPLORE SERVICES <FaArrowRightLong className='arrow' /> </button>
     </div>
   )
 }

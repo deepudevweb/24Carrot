@@ -1,6 +1,7 @@
 import React from 'react'
 import './Page.css'
 import Pagethreeimg from '../Images/wedding.png'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Pagethree() {
     return (
@@ -16,7 +17,7 @@ function Pagethree() {
                        most spectacular properties.From intimate understated spaces to large and luxurious,
                        <br />
                         we’ll help you find the event venue that makes your heart skip a beat.</p>
-                    <button className='button'>EXPLORE VENUES</button>
+                    <button className='button'>EXPLORE VENUES <FaArrowRightLong className='arrow' /> </button>
                 </div>
             </div>
         </div>

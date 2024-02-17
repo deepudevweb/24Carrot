@@ -16,7 +16,7 @@ function Pagefour() {
                     back from the initial idea to the final farewell!</p>
             </div>
             <div className="page-four-bottom">
-                <iframe width="1200" height="565" src="https://www.youtube.com/embed/ex-51dbD5lc?si=Yt8W7ukh9LOKWBor" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="1000" height="565" src="https://www.youtube.com/embed/ex-51dbD5lc?si=Yt8W7ukh9LOKWBor" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     )

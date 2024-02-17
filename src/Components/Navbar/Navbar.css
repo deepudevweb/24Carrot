@@ -48,11 +48,19 @@
     margin-left: 10px;
 }
 
+.menu-icon {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .nav-right {
         display: none;
     }
     .nav-left {
         display: none;
+    }
+    .navbar .menu-icon {
+       display: block !important;
+       color: black;
     }
 }

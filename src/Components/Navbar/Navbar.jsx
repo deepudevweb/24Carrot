@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import { MdMenu } from "react-icons/md";
+
 
 function Navbar() {
   return (
@@ -17,6 +19,7 @@ function Navbar() {
         <div className="nav-right">
           <a href="">VENUES</a>
           <a href="">CAREERS</a>
+            <MdMenu className='menu-icon'/>
           <button className='nav-button'>Get In Touch</button>
         </div>
         </div>
